@@ -1,0 +1,12 @@
+name: pair
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - requests
+  - pandas
+  - geopandas
+  - matplotlib
+  - pip
+  - pip:
+    - glob2
