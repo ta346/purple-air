@@ -8,5 +8,6 @@ dependencies:
   - geopandas
   - matplotlib
   - pip
+  - python-dotenv
   - pip:
     - glob2
