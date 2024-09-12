@@ -107,7 +107,7 @@ def get_sensors(key_read, filename = "sensors_index"):
     gdf = gpd.GeoDataFrame(df, geometry=gpd.points_from_xy(df.longitude, df.latitude), crs=4326)
 
     # Load U.S. boundaries from a GeoJSON file
-    us_shp = gpd.read_file(os.path.join(data_dir, "us_shp.json"))
+    us_shp = gpd.read_file("data/us_shp.json")
 
     # Ensure the CRS matches
     us_shp.to_crs(gdf.crs, inplace=True)
@@ -122,9 +122,9 @@ def get_sensors(key_read, filename = "sensors_index"):
     gdf_sensors = gdf_us.drop(columns=['index_right', 'AFFGEOID', 'GEOID', 'NAME'])
 
     # Directory to store the file
-    os.makedirs(processed_dir, exist_ok=True)  # Create directory if it doesn't exist
+    os.makedirs("processed", exist_ok=True)  # Create directory if it doesn't exist
     
-    filename = os.path.join(processed_dir, filename + ".csv")
+    filename = os.path.join("processed", filename + ".csv")
     
     print(filename)
     # Define file path and save the CSV file
@@ -143,11 +143,11 @@ def get_sensors(key_read, filename = "sensors_index"):
     
     return gdf_sensors
 
-def get_sensorslist(filename = "sensors_index"):
+def get_sensorslist(key_read, filename = "sensors_index"):
     """Retrieve sensor indexes based on whether they are US or not."""
     
-    if os.path.exists(os.path.join(processed_dir, filename + '.csv')):
-        sensors_index = pd.read_csv(os.path.join(processed_dir, filename + '.csv'))
+    if os.path.exists(os.path.join("processed", filename + '.csv')):
+        sensors_index = pd.read_csv(os.path.join("processed", filename + '.csv'))
     else:
         # call get_sensors to new lists of sensor
         sensors_index = get_sensors(key_read = key_read, filename=filename)
@@ -218,8 +218,6 @@ def get_historicaldata(sensors_list,
                        bdate, 
                        edate, 
                        average_time, 
-                       data_dir, 
-                       processed_dir, 
                        key_read, 
                        sleep_seconds):
     """
@@ -264,7 +262,7 @@ def get_historicaldata(sensors_list,
     print(fields_api_url)
     
     # Retrieve sensor index for us_indoor
-    us_indoor_sensors = pd.read_csv(os.path.join(data_dir, "indoor_us_jay.csv"))
+    us_indoor_sensors = pd.read_csv("data/indoor_us_jay.csv")
     us_indoor_sensorlist_jay = us_indoor_sensors['sensor_index'].tolist()
     
     # Generate date list for all sensors
@@ -282,7 +280,7 @@ def get_historicaldata(sensors_list,
     for sensor in sensors_list:
         
         # create new folder for a sensor
-        sensor_folder = os.path.join(processed_dir, f"sensorID_{sensor}")
+        sensor_folder = os.path.join("processed", f"sensorID_{sensor}")
         os.makedirs(sensor_folder, exist_ok=True)  # Create sensor folder if it doesn't exist
         
         hist_api_url = root_api_url + f'{sensor}/history/csv?api_key={key_read}'
@@ -413,9 +411,6 @@ def main():
     # Average_time. The desired average in minutes
     average_time = 10  # or 10 or 0 (Current script is set only for real-time, 10, or 60 minutes data)
 
-    data_dir = "data"
-    processed_dir = "processed"
-
     try:
         # Example list of sensors for demonstration
         sample_sensors = [131255, 182]
@@ -426,8 +421,6 @@ def main():
             bdate=bdate,
             edate=edate,
             average_time=average_time,
-            data_dir=data_dir,
-            processed_dir=processed_dir,
             key_read=key_read,
             sleep_seconds=sleep_seconds
         )
