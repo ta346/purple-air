@@ -231,8 +231,6 @@ def get_historicaldata(sensors_list,
     bdate (string): The beginning date (in ISO format) for the data to be retrieved.
     edate (string): The ending date (in ISO format) for the data to be retrieved.
     average_time (int): The average time (in minutes) used for the sensor data.
-    data_dir (string): Directory where indoor sensor data is stored.
-    processed_dir (string): Directory to save the downloaded sensor data.
     key_read (string): API key to access PurpleAir API.
     sleep_seconds (int): Time in seconds to wait between consecutive API requests to avoid throttling.
     
@@ -261,21 +259,21 @@ def get_historicaldata(sensors_list,
     print("CHECK POINT 1: Fields API URL")
     print(fields_api_url)
     
+    # --------------------- Jay
     # Retrieve sensor index for us_indoor
     us_indoor_sensors = pd.read_csv("data/indoor_us_jay.csv")
     us_indoor_sensorlist_jay = us_indoor_sensors['sensor_index'].tolist()
+    # Generate date list to skip data for certain us_indoor sensors (from 2021-01-01 to 2023-12-31)
+    check_datelist = create_pa_datelist(average_time, '2021-01-01T00:00:00+00:00', '2023-12-31T00:00:00+00:00')
     
     # Generate date list for all sensors
     date_list = create_pa_datelist(average_time, bdate, edate)
     
     print("CHECK POINT 2: Generated Date List")
     print(date_list)
-    
-    # Generate date list to skip data for certain us_indoor sensors (from 2021-01-01 to 2023-12-31)
-    check_datelist = create_pa_datelist(average_time, '2021-01-01T00:00:00+00:00', '2023-12-31T00:00:00+00:00')
-    
+
     len_datelist = len(date_list) - 1
-    
+        
     # Process each sensor
     for sensor in sensors_list:
         
@@ -285,19 +283,8 @@ def get_historicaldata(sensors_list,
         
         hist_api_url = root_api_url + f'{sensor}/history/csv?api_key={key_read}'
         
-        # Check if any file exists in the folder: returns a list of files
-        existing_files = glob.glob(f'{sensor_folder}/*.csv')
-        
-        print("CHECK POINT 3: Existing Files")
-        print(existing_files)
-        
-        # If any file exists, use the latest file
-        if existing_files:
-            # Read the existing file
-            existing_df = pd.read_csv(existing_files[0])
-        else:
-            print(f"No existing files for sensor {sensor}. Starting new file.")
-            existing_df = pd.DataFrame()  # No existing data
+        print("CHECK POINT 2:")
+        print(hist_api_url)
 
         # Create start and end date API URL
         for index, date in enumerate(date_list):
@@ -307,15 +294,29 @@ def get_historicaldata(sensors_list,
             
             if index < len_datelist:
                 
+                # Check if any file exists in the folder: returns a list of files
+                existing_files = glob.glob(f'{sensor_folder}/*.csv')
+                
+                print("CHECK POINT 3: Existing Files")
+                print(existing_files)
+            
+                # If any file exists, use the latest file
+                if existing_files:
+                    # Read the existing file
+                    existing_df = pd.read_csv(existing_files[0])
+                    
+                else:
+                    print(f"No existing files for sensor {sensor}. Starting new file.")
+                    existing_df = pd.DataFrame()  # No existing data
+                
                 # Skip if sensor is in us_indoor and the date is in 2021-2023
                 if sensor in us_indoor_sensorlist_jay and min(check_datelist) <= date <= max(check_datelist):
-                    print(str(sensor))
                     # Add sensor to skipped list if not already present
                     if sensor not in log_data["sensors_skipped"]:
                         log_data["sensors_skipped"].append(sensor)
                     print(f"Skipping download for {sensor} from {date_list[index+1]} to {date} (us_indoor sensor already downloaded)")
                     continue
-
+                
                 # Download data for PA
                 print(f'Downloading for PA: {sensor} for Dates: {date_list[index+1]} and {date}.')
                 dates_api_url = f'&start_timestamp={date_list[index+1]}&end_timestamp={date}'
@@ -341,18 +342,23 @@ def get_historicaldata(sensors_list,
                     except:
                         log_data[str(sensor)]["url_issue"].append(f"Request failed: {str(e)}")
                     continue
-                
-                except pd.errors.EmptyDataError:
-                    log_data[str(sensor)]["no_data"].append(f"{date_list[index+1]} to {date}")
-                    continue
-                
+                                
                 except Exception as e:
                     print(f"Unexpected error for sensor {sensor}: {e}")
                     continue
-
-                if df.empty:
-                    log_data[str(sensor)]["no_data"].append(f"{date_list[index+1]} to {date}")
+                
+                except pd.errors.EmptyDataError:
+                    message = f"{date_list[index+1]} to {date}"
+                    if message not in log_data[str(sensor)]["no_data"]: 
+                        log_data[str(sensor)]["no_data"].append(message)
                     continue
+                    
+                if df.empty:
+                    message = f"{date_list[index+1]} to {date}"
+                    if message not in log_data[str(sensor)]["no_data"]: 
+                        log_data[str(sensor)]["no_data"].append(message)
+                    continue
+
                 
                 # Process DataFrame
                 df['time_stamp'] = pd.to_datetime(df['time_stamp'])
@@ -370,6 +376,11 @@ def get_historicaldata(sensors_list,
                 
                 min_date = min_date.strftime("%Y_%m_%d")
                 max_date = max_date.strftime("%Y_%m_%d")
+                
+                # Update log for the sensor: min nad max date 
+                log_data[str(sensor)]["min_date"] = min_date
+                log_data[str(sensor)]["max_date"] = max_date
+                
                 # date = datetime.strptime(date, "%Y-%m-%dT%H:%M:%SZ")  
                 # date = date.strftime("%Y_%m_%d")
                 
@@ -399,24 +410,30 @@ def get_historicaldata(sensors_list,
 
 def main():
     # API Keys provided by PurpleAir(c)
-    key_read = '6CF9C562-6AEB-11EF-95CB-42010A80000E'
+    key_read = 'AB2FB9C8-714F-11EF-95CB-42010A80000E'
 
     # Sleep Seconds
     sleep_seconds = 3  # wait sleep_seconds after each query
 
     # Data download period. Enter Start and end Dates
-    bdate = '2021-01-01T00:00:00+00:00'
-    edate = '2021-01-12T00:00:00+00:00'
+    bdate = '2021-01-01'
+    edate = '2021-01-12'
 
     # Average_time. The desired average in minutes
     average_time = 10  # or 10 or 0 (Current script is set only for real-time, 10, or 60 minutes data)
 
     try:
+        # # get sensors
+        # sensorslist_dict = get_sensorslist(key_read=key_read)
+        # us_indoor_sensorlist = sensorslist_dict["us_indoor"]
+        # us_outdoor_sensorlist = sensorslist_dict["us_outdoor"]
+        # nonus_sensorlist = sensorslist_dict["non_us"]
+        
         # Example list of sensors for demonstration
         sample_sensors = [131255, 182]
 
         # Get historical data for the sample sensors
-        result = get_historicaldata(
+        get_historicaldata(
             sensors_list=sample_sensors,
             bdate=bdate,
             edate=edate,
