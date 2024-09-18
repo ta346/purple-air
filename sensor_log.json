@@ -1,5 +1,5 @@
 {
-    "sensors_index.csv file last updated": "2024-09-12",
+    "sensors_index.csv file last updated": "2024-09-18",
     "sensors_skipped": [
         131255
     ],
@@ -16,8 +16,8 @@
         "no_data": []
     },
     "182": {
-        "min_date": "2020_12_19",
-        "max_date": "2021_01_17",
+        "min_date": "2021_01_01",
+        "max_date": "2021_01_10",
         "url_issue": [],
         "no_data": []
     },
@@ -286,8 +286,8 @@
         "no_data": []
     },
     "1234": {
-        "min_date": null,
-        "max_date": null,
+        "min_date": "2021_01_01",
+        "max_date": "2021_01_10",
         "url_issue": [],
         "no_data": []
     },
@@ -352,8 +352,8 @@
         "no_data": []
     },
     "1302": {
-        "min_date": null,
-        "max_date": null,
+        "min_date": "2021_01_01",
+        "max_date": "2021_01_10",
         "url_issue": [],
         "no_data": []
     },
@@ -161056,5 +161056,5579 @@
             "2020-12-24T00:00:00Z to 2020-12-29T00:00:00Z",
             "2020-12-19T00:00:00Z to 2020-12-24T00:00:00Z"
         ]
+    },
+    "328": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "982": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "2338": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "3211": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "5522": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "5654": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "5856": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "6670": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "6986": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "7178": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "8328": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "9256": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "9314": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "9824": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "10602": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "10692": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "11158": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "11640": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "13415": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "13927": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "15149": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "15593": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "18849": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "19307": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "20961": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "22051": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "22919": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "22955": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "23661": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "23927": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "24241": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "24369": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "24467": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "24479": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "25587": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "25599": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "26473": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "26613": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "26941": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "27747": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "27785": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "28529": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "30233": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "31097": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "31101": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "31117": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "31203": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "31539": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "32111": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "34835": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "35239": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "35345": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "37549": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "37791": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "37805": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "37813": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "37833": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "40439": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "40771": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "41047": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "41173": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "41393": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "41719": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "41909": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "42141": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "42143": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "42153": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "42239": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "42623": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "42743": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "42859": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "42979": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "43805": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "46289": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "46895": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "46899": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "47407": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "47497": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "48815": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "49175": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "50233": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "50739": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "50855": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "52125": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "52131": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "52729": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "53327": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "54117": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "54849": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "55537": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "55955": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "56247": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "57087": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "57951": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "60491": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "60677": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "61769": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "62299": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "62331": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "63033": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "63309": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "63473": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "63611": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "63647": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "63655": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "63917": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "64085": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "64317": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "64803": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "64831": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "65237": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "65451": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "65693": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "65789": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "65899": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "65991": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "66219": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "66761": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "66925": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "67081": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "67307": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "67323": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "68157": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "68333": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "68391": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "68575": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "69431": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "71053": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "71771": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "71905": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "72299": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "72427": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "72733": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "72785": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "75051": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "75153": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "76729": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "77413": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "77637": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "78059": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "78203": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "78529": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "78533": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "78725": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "78837": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "79637": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "79747": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "80177": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "80429": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "80547": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "80697": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "81189": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "81567": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "83127": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "83455": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "83735": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "83841": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "84003": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "84577": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "84589": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "85269": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "85483": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "86235": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "86971": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "87549": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "87959": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "88597": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "90085": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "90197": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "90365": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "91003": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "91191": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "91675": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "91701": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "91785": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "91959": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "92055": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "93309": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "93657": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "93713": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "93927": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "94199": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "94703": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "95337": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "95761": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "96079": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "96577": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "96579": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "96597": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "96625": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "96765": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "96821": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "96827": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "96957": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "98539": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "98695": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "98999": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "99579": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "99675": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "100283": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "100471": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "100591": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "101930": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "101970": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "102476": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "102484": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "102580": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "102758": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "102934": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "103230": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "103242": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "103254": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "103482": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "103908": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "104654": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "104664": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "104742": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "105178": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "105192": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "105458": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "106154": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "106780": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "107024": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "107388": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "107714": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "107870": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "108030": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "108044": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "108192": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "108678": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "109250": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "109258": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "109334": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "109446": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "109652": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "110020": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "110234": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "110312": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "110326": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "110608": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "111065": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "112504": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "112592": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "112596": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "112892": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "113070": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "113392": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "113436": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "113831": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "114055": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "114059": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "114131": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "114551": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "114835": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "115021": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "115407": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "116059": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "116395": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "116409": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "116443": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "117815": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "117891": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "118155": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "119187": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "119455": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "119633": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "119643": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "120081": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "120471": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "120661": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "121035": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "121529": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "121535": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "121561": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "122007": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "122057": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "122709": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "122737": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "122941": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "123393": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "123453": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "124043": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "126045": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "127517": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "128049": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "128179": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "128245": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "128325": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "128359": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "128391": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "129003": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "129343": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "129527": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "130239": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "130389": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "131013": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "131787": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "132011": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "132121": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "132431": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "132989": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "133359": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "133626": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "134432": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "134468": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "135342": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "135672": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "136412": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "136704": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "137878": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "137926": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "137994": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "138124": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "138428": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "139376": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "140242": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "140438": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "140798": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "140932": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "141030": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "141504": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "142902": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "143316": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "143400": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "143522": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "143662": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "144862": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "144872": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "145822": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "146018": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "146186": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "146856": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "146902": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "147771": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "148225": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "148233": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "148295": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "148737": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "148751": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "148819": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "148835": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "149242": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "150308": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "150338": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "150580": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "150596": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "150918": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "150942": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "150958": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "151184": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "151636": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "151666": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "151720": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "151758": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "151764": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "152140": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "154331": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "154453": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "154663": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "155521": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "155693": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "155699": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "155789": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "156015": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "156053": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "156169": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "156281": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "156293": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "156315": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "156437": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "156467": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "156547": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "156623": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "156729": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "156955": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "156995": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "157203": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "157373": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "158261": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "158513": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "158803": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "159029": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "159035": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "159063": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "159105": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "159267": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "159393": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "159605": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "159935": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "160079": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "160133": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "160813": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "160971": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "161045": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "161091": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "161101": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "161201": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "161243": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "161595": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "161733": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "161765": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "162057": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "162073": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "162287": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "162425": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "162441": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "162845": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "163443": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "163605": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "163971": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "164507": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "164859": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "164991": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "165003": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "165055": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "165079": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "165219": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "165565": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "165593": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "165643": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "165817": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "165985": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "166541": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "166647": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "166649": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "166671": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "166687": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "166699": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "166711": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "166719": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "166723": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "166725": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "166929": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "167035": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "167195": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "167253": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "167379": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "167441": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "168469": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "168517": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "169255": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "169333": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "169521": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "170339": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "170509": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "170981": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "171145": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "171669": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "171687": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "171707": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "171733": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "171809": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "171973": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "172057": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "172081": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "172115": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "172119": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "172143": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "172375": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "172801": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "172845": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "173047": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "173067": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "173149": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "173167": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "173661": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "174055": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "174601": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "174805": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "175119": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "175367": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "176135": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "176133": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "176239": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "176345": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "176367": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "176369": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "176375": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "176373": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "176377": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "176383": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "176391": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "176389": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "176395": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "176403": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "176407": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "176409": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "176427": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "176511": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "176515": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "176661": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "177207": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "177255": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "177279": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "177729": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "177953": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "178103": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "178209": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "178481": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "179649": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "179733": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "179823": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "180025": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "180071": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "180165": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "180189": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "180283": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "180297": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "180317": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "180351": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "180491": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "180631": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "180715": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "180723": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "180823": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "181167": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "181911": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "182435": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "182833": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "182969": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "182983": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "183729": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "183789": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "184105": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "184129": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "184177": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "184483": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "184485": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "184585": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "184741": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "184829": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "184911": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "184909": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "184935": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "184963": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "185521": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "185537": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "185591": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "185621": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "185637": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "185745": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "186159": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "186697": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "186806": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "186851": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "186865": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "186949": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "187119": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "187157": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "187257": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "187765": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "187795": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "187971": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "188497": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "188707": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "189195": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "189257": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "189397": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "189451": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "189483": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "190181": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "190311": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "190381": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "190485": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "190491": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "190785": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "190901": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "190983": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "191009": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "191023": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "191031": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "191137": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "191147": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "191215": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "191897": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "191915": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "192115": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "192127": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "192125": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "192693": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "193233": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "193237": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "193429": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "193799": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "193909": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "193944": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "194417": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "194733": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "194745": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "194969": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "195255": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "195337": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "195615": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "195785": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "195807": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "196007": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "196023": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "196277": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "196305": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "196379": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "197385": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "197407": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "197619": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "198399": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "198465": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "198651": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "198655": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "198817": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "198849": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "199121": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "199159": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "199177": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "199199": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "199205": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "199217": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "199317": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "199863": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "199883": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "199921": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "200107": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "200137": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "200157": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "200361": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "200707": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "200845": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "200899": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "202109": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "202139": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "202155": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "202183": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "202229": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "202619": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "202979": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "203535": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "204081": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "204185": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "204191": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "204189": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "204195": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "204217": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "204383": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "204601": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "204801": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "205483": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "205683": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "205713": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "206317": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "206355": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "206357": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "206363": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "206365": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "206399": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "206429": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "206673": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "206683": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "206849": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "207031": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "207463": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "208037": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "208095": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "208425": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "208433": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "208445": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "208451": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "208449": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "208453": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "208459": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "208689": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "208883": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "209133": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "209137": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "209141": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "209159": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "209339": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "209599": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "209601": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "209659": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "209803": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "211613": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "211637": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "211643": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "211667": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "211669": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "211707": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "212239": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "212937": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "213651": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "213653": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "213677": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "213765": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "213891": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "214301": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "214395": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "214441": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "214731": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "214887": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "214897": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "215147": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "215215": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "215443": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "215589": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "215797": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "215833": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "215895": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "215923": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "215921": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "216007": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "216013": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "216615": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "216703": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "216759": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "217099": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "217513": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "217597": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "217611": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "217627": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "217963": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "218015": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "218065": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "218117": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "218441": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "218543": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "218755": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "218805": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "218845": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "218955": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "219579": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "219677": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "220245": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "220757": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "220793": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "221555": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "222193": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "222353": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "222365": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "222407": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "222603": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "222723": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "223435": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "223437": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "223469": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "223721": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "223813": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "223819": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "223871": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "224749": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "224893": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "225115": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "225137": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "225247": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "225343": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "225373": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "225667": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "225953": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "226037": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "226077": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "226089": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "226107": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "226111": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "226259": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "227021": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "227119": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "227173": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "227339": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "227579": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "227767": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "227789": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "227797": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "228201": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "228495": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "228541": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "228707": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "228705": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "230027": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "230401": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "230777": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "231137": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "231205": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "231209": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "231219": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "231291": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "231437": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "231631": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "231711": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "232221": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "232257": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "232293": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "232323": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "232351": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "232463": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "232527": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "232671": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "232703": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "232819": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "232951": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "232955": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "232983": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "232981": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "233089": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "233165": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "233175": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "233195": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "233247": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "233327": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "233345": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "233357": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "233379": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "233705": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "233799": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "234053": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "234065": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "234111": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "234123": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "234121": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "234187": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "234481": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "234505": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "234509": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "234515": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "234519": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "235169": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "235203": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "235723": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "235837": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "235845": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "235863": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "235949": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "235977": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "235981": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "235989": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236063": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236121": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236131": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236169": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236179": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236183": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236187": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236197": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236211": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236295": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236299": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236297": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236303": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236301": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236331": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236339": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236341": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236349": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236357": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236489": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236495": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236493": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236497": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236721": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236759": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236765": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236769": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236777": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236831": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236833": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "236993": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "237017": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "237037": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "237043": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "237087": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "237091": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "237089": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "237103": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "237129": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "237187": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "237263": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "237569": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "237827": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "237855": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "238045": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "238061": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "238077": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "238081": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "238119": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "238125": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "238279": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "238309": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "238319": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "238329": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "238399": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "238409": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "238639": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "238671": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "238717": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "239069": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "239077": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "239089": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "239093": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "239219": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "239227": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "239325": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "239617": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "239797": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "239891": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "240603": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "240851": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "240911": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "240923": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "241143": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "241293": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "241375": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "241449": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "241595": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "241597": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "241775": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "241895": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "241897": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "242055": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "242053": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "242411": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "242525": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "242743": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "242747": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "242745": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "243107": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "243105": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "243323": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "243321": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "243327": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "243325": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "243331": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "243329": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "243699": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
+    },
+    "243843": {
+        "min_date": null,
+        "max_date": null,
+        "url_issue": [],
+        "no_data": []
     }
 }

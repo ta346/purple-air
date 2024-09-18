@@ -4,7 +4,6 @@ import time
 import requests
 import pandas as pd
 import geopandas as gpd
-import matplotlib.pyplot as plt
 from io import StringIO
 from datetime import datetime
 import glob
@@ -39,7 +38,7 @@ def update_sensor_index_log(log_file_path, sensor_list, last_download_date):
     print(f"{log_file_path} successfully updated.")
     
 # Function to get sensors from the API
-def get_sensors(key_read, filename = "sensors_index"):
+def get_sensors(key_read, filename = "sensors_index",  download_dir = "processed"):
     
     '''
     Parameters:
@@ -122,15 +121,15 @@ def get_sensors(key_read, filename = "sensors_index"):
     gdf_sensors = gdf_us.drop(columns=['index_right', 'AFFGEOID', 'GEOID', 'NAME'])
 
     # Directory to store the file
-    os.makedirs("processed", exist_ok=True)  # Create directory if it doesn't exist
+    os.makedirs(download_dir, exist_ok=True)  # Create directory if it doesn't exist
     
-    filename = os.path.join("processed", filename + ".csv")
+    out_dir = os.path.join(download_dir, filename + ".csv")
     
-    print(filename)
+    print(out_dir)
     # Define file path and save the CSV file
-    gdf_sensors.to_csv(filename, index=False, header=True)
+    gdf_sensors.to_csv(out_dir, index=False, header=True)
 
-    print(f"{len(gdf_sensors)} sensors successfully extracted and stored in: {filename}")
+    print(f"{len(gdf_sensors)} sensors successfully extracted and stored in: {out_dir}")
 
     # extract sensor_list
     sensor_list = gdf_sensors['sensor_index'].tolist()
@@ -143,14 +142,14 @@ def get_sensors(key_read, filename = "sensors_index"):
     
     return gdf_sensors
 
-def get_sensorslist(key_read, filename = "sensors_index"):
+def get_sensorslist(key_read, filename = "sensors_index", download_dir = "processed"):
     """Retrieve sensor indexes based on whether they are US or not."""
     
-    if os.path.exists(os.path.join("processed", filename + '.csv')):
-        sensors_index = pd.read_csv(os.path.join("processed", filename + '.csv'))
+    if os.path.exists(os.path.join(download_dir, filename + '.csv')):
+        sensors_index = pd.read_csv(os.path.join(download_dir, filename + '.csv'))
     else:
         # call get_sensors to new lists of sensor
-        sensors_index = get_sensors(key_read = key_read, filename=filename)
+        sensors_index = get_sensors(key_read = key_read, filename=filename, download_dir = "processed")
         
     # replace this with get_sensor function later!
     # all_sensorlist = gdf_sensorlist['sensor_index'].tolist()
@@ -221,7 +220,8 @@ def get_historicaldata(sensors_list,
                        edate, 
                        average_time, 
                        key_read, 
-                       sleep_seconds):
+                       sleep_seconds,
+                       download_dir = "processed"):
     """
     Purpose:
 
@@ -279,9 +279,13 @@ def get_historicaldata(sensors_list,
             log_data[str(sensor)] = {"url_issue": [], "no_data": []}
         
         # create new folder for a sensor
-        sensor_folder = os.path.join("processed", f"sensorID_{sensor}")
-        os.makedirs(sensor_folder, exist_ok=True)  # Create sensor folder if it doesn't exist
+        # sensor_folder = os.path.join(download_dir, f"sensorID_{sensor}")
+        # os.makedirs(sensor_folder, exist_ok=True)  # Create sensor folder if it doesn't exist
         
+        # create new data folder
+        data_folder = os.path.join(download_dir, "pair_data")
+        os.makedirs(data_folder, exist_ok = True)
+
         hist_api_url = root_api_url + f'{sensor}/history/csv?api_key={key_read}'
         
         print("CHECK POINT 2:")
@@ -305,8 +309,10 @@ def get_historicaldata(sensors_list,
             if index < len_datelist:
                 
                 # Check if any file exists for this sensor
-                existing_files = glob.glob(f'{sensor_folder}/*.csv')
+                # existing_files = glob.glob(f'{sensor_folder}/*.csv')
                 
+                existing_files = glob.glob(f'{data_folder}/sensorID_{sensor}_*csv')
+
                 # If file exists, read the existing data and get the date range
                 if existing_files:
                     existing_df = pd.read_csv(existing_files[0])
@@ -346,7 +352,7 @@ def get_historicaldata(sensors_list,
                 except requests.exceptions.HTTPError as e:
                     print(f"HTTP error for sensor {sensor}: {e}")
                     log_data[str(sensor)]["url_issue"].append(f"HTTP error: {e}")
-                    continue
+                    break
                 
                 except requests.exceptions.RequestException as e:
                     try:
@@ -378,13 +384,14 @@ def get_historicaldata(sensors_list,
 
                 
                 # Process DataFrame
-                df['time_stamp'] = pd.to_datetime(df['time_stamp'])
+                # warning is silenced: https://pandas.pydata.org/docs/reference/api/pandas.to_datetime.html
+                df['time_stamp'] = pd.to_datetime(df['time_stamp'], utc = True)
                 df = df.drop_duplicates().sort_values(by='time_stamp')
 
                 # Append the new data to the existing DataFrame if it exists
                 if not existing_df.empty:
                     df = pd.concat([existing_df, df], ignore_index=True)
-                    df['time_stamp'] = pd.to_datetime(df['time_stamp'])
+                    df['time_stamp'] = pd.to_datetime(df['time_stamp'], utc = True)
                     df = df.drop_duplicates().sort_values(by='time_stamp')
 
                 # Get the minimum and maximum date from the combined DataFrame
@@ -400,7 +407,7 @@ def get_historicaldata(sensors_list,
                 
                 try: 
                     # Save the dataframe
-                    csv_file = f'{sensor_folder}/sensorID_{sensor}_{min_date}_{max_date}.csv'
+                    csv_file = f'{data_folder}/sensorID_{sensor}_{min_date}_{max_date}.csv'
 
                     df.to_csv(csv_file, index=False)
                     print(f"Attempting to save data to: {csv_file}")
@@ -431,20 +438,24 @@ def main():
     sleep_seconds = 3  # wait sleep_seconds after each query
 
     # Data download period. Enter Start and end Dates
-    bdate = '2020-12-19'
-    edate = '2021-01-19'
+    bdate = '2021-01-01'
+    edate = '2021-01-15'
 
     # Average_time. The desired average in minutes
     average_time = 10  # or 10 or 0 (Current script is set only for real-time, 10, or 60 minutes data)
+    
+    # data folder directory
+    download_dir = "processed"
+    
     try:
-        # # get sensors
-        # sensorslist_dict = get_sensorslist(key_read=key_read)
+        # get sensors
+        sensorslist_dict = get_sensorslist(key_read=key_read, filename="sensors_index", download_dir=download_dir)
         # us_indoor_sensorlist = sensorslist_dict["us_indoor"]
         # us_outdoor_sensorlist = sensorslist_dict["us_outdoor"]
-        # nonus_sensorlist = sensorslist_dict["non_us"]
+        nonus_sensorlist = sensorslist_dict["non_us"]
         
         # Example list of sensors for demonstration
-        sample_sensors = [131255, 182]
+        sample_sensors = [131255, 182, 1234, 1302]
 
         # Get historical data for the sample sensors
         get_historicaldata(
@@ -453,7 +464,8 @@ def main():
             edate=edate,
             average_time=average_time,
             key_read=key_read,
-            sleep_seconds=sleep_seconds
+            sleep_seconds=sleep_seconds,
+            download_dir = download_dir
         )
 
     except requests.exceptions.RequestException as e:
@@ -465,4 +477,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
